@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Caixa {
+margin: auto;
+height: 400px;
+display: flex;
+flex-direction: column;
+background-image: url(istockphoto-860440036-612x612.jpg);
+background-size: cover;
+text-align: center;
+padding: 20px;
+justify-content: space-between;
+}
+h1 {
+padding: 3px;
+text-align: center;
+color: white;
+}
+.Link {
+
+    display: inline-block;
+    padding: 10px 15px;
+    border: 2px solid #007BFF;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #007bff;
+    transition: all o.3 ease;
+}
+h2 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
